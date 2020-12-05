@@ -1,0 +1,18 @@
+.Select {
+  &__Title {
+    color: #808080;
+    font-size: 18px;
+  }
+
+  &__Item {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    color: #808080;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

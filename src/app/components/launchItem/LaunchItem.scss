@@ -1,0 +1,34 @@
+.LaunchItem {
+  display: flex;
+  background-color: #e1e7fc;
+  padding: 20px;
+  border-radius: 15px;
+
+  &__Image {
+    width: 25%;
+    object-fit: contain;
+  }
+
+  &__Inner {
+    padding-left: 40px;
+    width: 85%;
+  }
+
+  &__Top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__Title {
+    color: #808080;
+  }
+
+  &__Date {
+    color: #808080;
+    font-weight: 500;
+  }
+
+  &__Description {
+    margin-top: 10px;
+  }
+}
